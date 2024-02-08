@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+.w-fit{
+    width: fit-content;
+}
+.w-max{
+    width: max-content;
+}
+.w-min{
+    width: min-content;
+}
+
+.shadow-success{
+    box-shadow: 0px 3px 10px var(--bs-danger);
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+.h-vh-75{
+    height: 75vh;
+}
+.h-vh-50{
+    height: 50vh;
+}
+.h-vh-25{
+    height: 25vh;
+}
+
+.outline-0{
+    outline: none;
+}

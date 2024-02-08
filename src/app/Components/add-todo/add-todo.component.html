@@ -1,0 +1,20 @@
+<div class="container py-4 px-5 bg-primary rounded-3 shadow add-todo">
+    <input
+      class="border-0 w-75 px-3 py-1 d-block mb-3 border-bottom border-3 border-dark rounded-3 outline-0"
+      type="text"
+      placeholder="Title"
+      [(ngModel)]="title"
+    />
+    <textarea
+      class="border-0 w-100 px-3 py-1 border-bottom border-3 border-dark rounded-3 outline-0"
+      type="text"
+      rows="4"
+      placeholder="Description"
+      [(ngModel)]="desc"
+    ></textarea>
+    <div class="d-flex justify-content-end px-2 mt-3">
+      <button class="btn btn-danger px-4 py-1" (click)="emitTodo()">
+        Add
+      </button>
+    </div>
+  </div>

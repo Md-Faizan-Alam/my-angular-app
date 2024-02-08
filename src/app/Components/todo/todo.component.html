@@ -1,0 +1,13 @@
+<div
+  class="container-fluid py-2 px-5 mb-3 shadow bg-dark rounded-3 text-light todo"
+>
+  <div class="row mb-2 fw-semibold">{{ todo.id }}. {{ todo.name }}</div>
+  <div class="row mb-2">
+    {{ todo.description }}
+  </div>
+  <div class="row d-flex flex-row-reverse px-5 mb-2">
+    <div class="col-1">
+      <button class="btn btn-danger py-1" (click)="handleDelete(todo)" >Delete</button>
+    </div>
+  </div>
+</div>
